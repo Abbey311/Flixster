@@ -42,10 +42,3 @@ I would have gotten the search and clear buttons to work. I was so close and I k
 
 My project demo went well, and I displayed all of the features I had at the time. However, I wish I was better prepared because there were still components that were unfinished during the time of my presentation. I noticed that my peers made their projects unique and added their own components to make their page original, which I will definitely do in the future.
 
-### Open-source libraries used
-
-- Add any links to open-source libraries used in your project.
-
-### Shout out
-
-Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
