@@ -26,7 +26,7 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 ### Walkthrough Video
 
 
-'<iframe width="640" height="350" src="https://www.loom.com/embed/010e1bf61ca54410bee49abebed374c8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+<iframe width="640" height="350" src="https://www.loom.com/embed/010e1bf61ca54410bee49abebed374c8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### Reflection
 
