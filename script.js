@@ -3,16 +3,18 @@ console.log("page loaded");
 const apiKey = "0e79938c7b4f5732f4719af0e2ca605c";
 const loadMovies= document.querySelector(".load");
 const movieResults = document.querySelector("#movie-results");
-const movieArea = document.getElementById('movie-area');
+// const movieArea = document.getElementById('movie-area');
 const searchInput = document.getElementById('search-input');
 const searchForm = document.getElementById('search-form');
 let currentPage = 1;
 const limit = 24;
 const offset = currentPage*limit;
 var currentSearchTerm = '';
+const clearButton = document.querySelector('#clear');
 
 
 async function searchMovies(searchQuery) {
+    console.log("search");
     const response = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${searchQuery}`);
     const jsonResponse = await response.json();
     let movies = jsonResponse.results.map(result => ({
@@ -21,9 +23,16 @@ async function searchMovies(searchQuery) {
         posterPath: result.poster_path,
         voteAvg: result.vote_average,
     }))
-
+    console.log(movies);
     return movies;
 }
+
+// function clearMovies(){
+//     movieArea.innerHTML = ''
+//     currentPage = 1
+//     getMovies();
+// }
+// clearButton.addEventListener('click', clearMovies);
 
 async function getMovies(){
     const apiUrl = "https://api.themoviedb.org/3/movie/now_playing?&api_key=" + apiKey + "&q=" + currentSearchTerm + "&limit=" + limit + "&offset="+ offset + "&language=en-US&page=" + currentPage;
@@ -35,16 +44,16 @@ async function getMovies(){
 }
 
 function displayMovies(movies) {
-    console.log(movies);
+    // console.log(movies);
+    
     movieResults.innerHTML+=`
     <div class="individualMovie">
-    <img src="https://image.tmdb.org/t/p/w500${movies.poster_path} "alt=${movies.title} width="200" />
+    <img src="https://image.tmdb.org/t/p/w500${movies.poster_path} "alt=${movies.title} width="200"/>
     <div class="tr"
         <p class="movTitle" style="color: white; "> ${movies.title}</p>
         <p class="movVote" id="rating" style="color: darkgrey; ">${movies.vote_average}⭐️</p>
     </div>
     </div>
-
     `
 }
 function showMore(event){
@@ -52,29 +61,18 @@ function showMore(event){
     currentPage++;
     getMovies();
 } 
+
 loadMovies.addEventListener("click", showMore);
-getMovies()
 
 async function handleFormSubmit(event) {
     event.preventDefault();
-    movieArea.innerHTML = '';
+    movieResults.innerHTML = '';
     currentSearchTerm = searchInput.value;
     const results = await searchMovies(currentSearchTerm);
-    getMovies(results);
+    displayMovies(results);
+    console.log(results);
     searchInput.value = '';
-    currentPage++;
 
 }
 searchForm.addEventListener('submit', handleFormSubmit);
-
-
-// async function handleFormSubmit(event) {
-//     event.preventDefault();
-//     gifAreaDiv.innerHTML = '';
-//     currentSearchTerm = searchInput.value;
-//     const results = await getResults(currentSearchTerm);
-//     displayResults(results);
-//     searchInput.value = '';
-//     currentApiPage++;
-//     showMeMoreBtn.classList.remove('hidden');
-// }
+getMovies()
