@@ -1,18 +1,13 @@
 .container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:flex-start;
 }
 
 #header{
     display: inline-block;
 }
 
-#hidden{
-    display: none;
-}
-
-#grid-container{
+.grid-container{
     display: grid;
-    grid-template-columns: 100px;
-    grid-auto-rows: 150px;
+    grid-template-columns: repeat(4, 100px);
 }

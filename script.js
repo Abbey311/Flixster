@@ -25,8 +25,8 @@ function displayMovies(movies) {
     console.log(movies);
     movieResults.innerHTML+=`
     <img src="https://image.tmdb.org/t/p/w500${movies.poster_path} "alt=${movies.title} width="200" height="300"/>"
-    <p style="color: white"> ${movies.title}</p>
-    <p style="color: darkgrey">⭐️${movies.vote_average}</p>
+    <p style="color: white; text-align:left"> ${movies.title}</p>
+    <p style="color: darkgrey; text-align:right">${movies.vote_average}⭐️</p>
     `
 }
 function showMore(){
