@@ -4,7 +4,7 @@
 
 Submitted by: **Abbey Yared**
 
-Estimated time spent: **20** hours spent in total
+Estimated time spent: **25** hours spent in total
 
 Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
