@@ -1,13 +1,13 @@
 console.log("page loaded");
 
 const apiKey = "0e79938c7b4f5732f4719af0e2ca605c";
-const loadButton = document.querySelector(".hidden");
+const loadMovies= document.querySelector(".load");
 const movieResults = document.querySelector("#movie-results");
 let currentPage = 0;
 const limit = 9;
 let offset = currentPage*limit;
 
-//loadButton.addEventListener("click", showMore);
+loadMovies.addEventListener("click", showMore);
 
 
 async function getMovies(){
@@ -26,5 +26,10 @@ function displayMovies(movies) {
     movieResults.innerHTML+=`
     <img src="https://image.tmdb.org/t/p/w500${movies.poster_path} "alt=${movies.title} width="200" height="300"/>"
     <p style="color: white"> ${movies.title}</p>
+    <p style="color: darkgrey">⭐️${movies.vote_average}</p>
     `
+}
+function showMore(){
+    getMovies();
+    currentPage++;
 } 
