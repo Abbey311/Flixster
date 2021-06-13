@@ -31,13 +31,13 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Yes, the topics discussed in labs helped prepare me
+Yes, the topics discussed in labs helped prepare me as I became more familiar with javascript, CSS, and HTML. The giphy lab was very useful as we learned how to deal with API's and how to handle form submits. I felt slightly unprepared for the search feature and so this took me a long time to figure out.
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-I would have gotten the search and clear buttons to work. I was so close and I know I could have been able to complete them. I would have made my page look more aesthetically pleasing, and would have tried to implement all of the stretch features.
+I would have made my page look more aesthetically pleasing, and would have tried to implement all of the stretch features. I would have loved to include a pop-up, as well as the trailer for each movie. I also would have liked to make the page more interactive where the user could actually interact with the movie posters. 
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-My project demo went well, and I displayed all of the features I had at the time. However, I wish I was better prepared because there were still components that were unfinished during the time of my presentation. I noticed that my peers made their projects unique and added their own components to make their page original, which I will definitely do in the future.
+My project demo went well, and I displayed all of the features I had at the time. However, I wish I was better prepared because there were still components that were unfinished during the time of my presentation. I noticed that my peers made their projects unique and added their own components to make their webpage original, which is something I will definitely want to do in the future.
 
