@@ -1,10 +1,9 @@
-📝 `NOTE` Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
 
 ## Week 1 Assignment: Flixster
 
 Submitted by: **Abbey Yared**
 
-Estimated time spent: **25** hours spent in total
+Estimated time spent: **30** hours spent in total
 
 Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
@@ -17,7 +16,7 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 - [x] User can load more current movies by clicking a button at the bottom of the list. The page should not refresh; movies should simply be added to the bottom.
 - [x] Website accounts for basic HTML/CSS accessibility features.
 - [x] Website should be responsive.
-- [ ] Allow users to search for movies and display them in a grid view. Users should be able to clear results and view previous current movies displayed.
+- [x] Allow users to search for movies and display them in a grid view. Users should be able to clear results and view previous current movies displayed.
 
 #### STRETCH FEATURES
 
