@@ -4,7 +4,7 @@
 
 Submitted by: **Abbey Yared**
 
-Estimated time spent: **20** hours spent in total
+Estimated time spent: **25** hours spent in total
 
 Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
@@ -12,21 +12,21 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 #### REQUIRED FEATURES
 
-- [ ] User can view a list of current movies from The Movie Database API as a grid view.
-- [ ] For each movie displayed, user can see the following details: `Title`, `Poster Image`, `Votes`.
-- [ ] User can load more current movies by clicking a button at the bottom of the list. The page should not refresh; movies should simply be added to the bottom.
-- [ ] Website accounts for basic HTML/CSS accessibility features.
-- [ ] Website should be responsive.
+- [x] User can view a list of current movies from The Movie Database API as a grid view.
+- [x] For each movie displayed, user can see the following details: `Title`, `Poster Image`, `Votes`.
+- [x] User can load more current movies by clicking a button at the bottom of the list. The page should not refresh; movies should simply be added to the bottom.
+- [x] Website accounts for basic HTML/CSS accessibility features.
+- [x] Website should be responsive.
+- [ ] Allow users to search for movies and display them in a grid view. Users should be able to clear results and view previous current movies displayed.
 
 #### STRETCH FEATURES
 
-- [ ] Used Bootstrap to make the page look nicer.
+- [x] Used Bootstrap to make the page look nicer.
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
 
-`ADD_EMBEDDED_CODE_HERE`
+<div style="position: relative; padding-bottom: 54.6875%; height: 0;"><iframe src="https://www.loom.com/embed/010e1bf61ca54410bee49abebed374c8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### Reflection
 
@@ -42,10 +42,3 @@ I would have gotten the search and clear buttons to work. I was so close and I k
 
 My project demo went well, and I displayed all of the features I had at the time. However, I wish I was better prepared because there were still components that were unfinished during the time of my presentation. I noticed that my peers made their projects unique and added their own components to make their page original, which I will definitely do in the future.
 
-### Open-source libraries used
-
-- Add any links to open-source libraries used in your project.
-
-### Shout out
-
-Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
